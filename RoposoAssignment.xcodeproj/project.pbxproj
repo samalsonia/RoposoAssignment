@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA617C941D00675400313A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA617C931D00675400313A5E /* main.m */; };
+		AA617C971D00675400313A5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA617C961D00675400313A5E /* AppDelegate.m */; };
+		AA617C9A1D00675400313A5E /* RoposoAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA617C981D00675400313A5E /* RoposoAssignment.xcdatamodeld */; };
+		AA617C9D1D00675400313A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA617C9C1D00675400313A5E /* ViewController.m */; };
+		AA617CA01D00675400313A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA617C9E1D00675400313A5E /* Main.storyboard */; };
+		AA617CA21D00675400313A5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA617CA11D00675400313A5E /* Images.xcassets */; };
+		AA617CA51D00675400313A5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA617CA31D00675400313A5E /* LaunchScreen.xib */; };
+		AA617CB11D00675400313A5E /* RoposoAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA617CB01D00675400313A5E /* RoposoAssignmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA617CAB1D00675400313A5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA617C861D00675400313A5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA617C8D1D00675400313A5E;
+			remoteInfo = RoposoAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA617C8E1D00675400313A5E /* RoposoAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoposoAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA617C921D00675400313A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA617C931D00675400313A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA617C951D00675400313A5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA617C961D00675400313A5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA617C991D00675400313A5E /* RoposoAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoposoAssignment.xcdatamodel; sourceTree = "<group>"; };
+		AA617C9B1D00675400313A5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA617C9C1D00675400313A5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA617C9F1D00675400313A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA617CA11D00675400313A5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA617CA41D00675400313A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA617CAA1D00675400313A5E /* RoposoAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoposoAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA617CAF1D00675400313A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA617CB01D00675400313A5E /* RoposoAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoposoAssignmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA617C8B1D00675400313A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA617CA71D00675400313A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA617C851D00675400313A5E = {
+			isa = PBXGroup;
+			children = (
+				AA617C901D00675400313A5E /* RoposoAssignment */,
+				AA617CAD1D00675400313A5E /* RoposoAssignmentTests */,
+				AA617C8F1D00675400313A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA617C8F1D00675400313A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA617C8E1D00675400313A5E /* RoposoAssignment.app */,
+				AA617CAA1D00675400313A5E /* RoposoAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA617C901D00675400313A5E /* RoposoAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				AA617C951D00675400313A5E /* AppDelegate.h */,
+				AA617C961D00675400313A5E /* AppDelegate.m */,
+				AA617C9B1D00675400313A5E /* ViewController.h */,
+				AA617C9C1D00675400313A5E /* ViewController.m */,
+				AA617C9E1D00675400313A5E /* Main.storyboard */,
+				AA617CA11D00675400313A5E /* Images.xcassets */,
+				AA617CA31D00675400313A5E /* LaunchScreen.xib */,
+				AA617C981D00675400313A5E /* RoposoAssignment.xcdatamodeld */,
+				AA617C911D00675400313A5E /* Supporting Files */,
+			);
+			path = RoposoAssignment;
+			sourceTree = "<group>";
+		};
+		AA617C911D00675400313A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA617C921D00675400313A5E /* Info.plist */,
+				AA617C931D00675400313A5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA617CAD1D00675400313A5E /* RoposoAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA617CB01D00675400313A5E /* RoposoAssignmentTests.m */,
+				AA617CAE1D00675400313A5E /* Supporting Files */,
+			);
+			path = RoposoAssignmentTests;
+			sourceTree = "<group>";
+		};
+		AA617CAE1D00675400313A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA617CAF1D00675400313A5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA617C8D1D00675400313A5E /* RoposoAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA617CB41D00675400313A5E /* Build configuration list for PBXNativeTarget "RoposoAssignment" */;
+			buildPhases = (
+				AA617C8A1D00675400313A5E /* Sources */,
+				AA617C8B1D00675400313A5E /* Frameworks */,
+				AA617C8C1D00675400313A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoposoAssignment;
+			productName = RoposoAssignment;
+			productReference = AA617C8E1D00675400313A5E /* RoposoAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA617CA91D00675400313A5E /* RoposoAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA617CB71D00675400313A5E /* Build configuration list for PBXNativeTarget "RoposoAssignmentTests" */;
+			buildPhases = (
+				AA617CA61D00675400313A5E /* Sources */,
+				AA617CA71D00675400313A5E /* Frameworks */,
+				AA617CA81D00675400313A5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA617CAC1D00675400313A5E /* PBXTargetDependency */,
+			);
+			name = RoposoAssignmentTests;
+			productName = RoposoAssignmentTests;
+			productReference = AA617CAA1D00675400313A5E /* RoposoAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA617C861D00675400313A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Roposo;
+				TargetAttributes = {
+					AA617C8D1D00675400313A5E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					AA617CA91D00675400313A5E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = AA617C8D1D00675400313A5E;
+					};
+				};
+			};
+			buildConfigurationList = AA617C891D00675400313A5E /* Build configuration list for PBXProject "RoposoAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA617C851D00675400313A5E;
+			productRefGroup = AA617C8F1D00675400313A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA617C8D1D00675400313A5E /* RoposoAssignment */,
+				AA617CA91D00675400313A5E /* RoposoAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA617C8C1D00675400313A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA617CA01D00675400313A5E /* Main.storyboard in Resources */,
+				AA617CA51D00675400313A5E /* LaunchScreen.xib in Resources */,
+				AA617CA21D00675400313A5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA617CA81D00675400313A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA617C8A1D00675400313A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA617C971D00675400313A5E /* AppDelegate.m in Sources */,
+				AA617C941D00675400313A5E /* main.m in Sources */,
+				AA617C9D1D00675400313A5E /* ViewController.m in Sources */,
+				AA617C9A1D00675400313A5E /* RoposoAssignment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA617CA61D00675400313A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA617CB11D00675400313A5E /* RoposoAssignmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA617CAC1D00675400313A5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA617C8D1D00675400313A5E /* RoposoAssignment */;
+			targetProxy = AA617CAB1D00675400313A5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA617C9E1D00675400313A5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA617C9F1D00675400313A5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA617CA31D00675400313A5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA617CA41D00675400313A5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA617CB21D00675400313A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA617CB31D00675400313A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA617CB51D00675400313A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoposoAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA617CB61D00675400313A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoposoAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA617CB81D00675400313A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoposoAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoposoAssignment.app/RoposoAssignment";
+			};
+			name = Debug;
+		};
+		AA617CB91D00675400313A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoposoAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoposoAssignment.app/RoposoAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA617C891D00675400313A5E /* Build configuration list for PBXProject "RoposoAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA617CB21D00675400313A5E /* Debug */,
+				AA617CB31D00675400313A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA617CB41D00675400313A5E /* Build configuration list for PBXNativeTarget "RoposoAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA617CB51D00675400313A5E /* Debug */,
+				AA617CB61D00675400313A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA617CB71D00675400313A5E /* Build configuration list for PBXNativeTarget "RoposoAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA617CB81D00675400313A5E /* Debug */,
+				AA617CB91D00675400313A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA617C981D00675400313A5E /* RoposoAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA617C991D00675400313A5E /* RoposoAssignment.xcdatamodel */,
+			);
+			currentVersion = AA617C991D00675400313A5E /* RoposoAssignment.xcdatamodel */;
+			path = RoposoAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA617C861D00675400313A5E /* Project object */;
+}
