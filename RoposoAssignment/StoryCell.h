@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StoryCell.h
 //  RoposoAssignment
 //
 //  Created by Tapasya  Samal on 02/06/16.
@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Story;
 
-@interface ViewController : UIViewController
+@interface StoryCell : UITableViewCell
 
++ (CGFloat)height;
+- (void)assignCellDataWithStory:(Story *)story;
 
 @end
-
